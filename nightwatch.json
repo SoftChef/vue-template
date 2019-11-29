@@ -8,7 +8,7 @@
     "test_settings" : {
         "default" : {
              "desiredCapabilities": {
-                "browserName": "chromes"
+                "browserName": "chrome"
             }
         }
     }

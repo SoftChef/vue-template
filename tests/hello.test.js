@@ -1,7 +1,7 @@
 module.exports = {
     'Test template'(browser) {
         browser
-            .url('http://localhost:8081/index.html')
+            .url('http://localhost:8080/index.html')
             .waitForElementVisible('body')
             .setValue('input[name="username"]', 'Eric')
             .click('button[name="test-button"]')
